@@ -1,0 +1,9 @@
+LABEL pmagic
+    	MENU LABEL PartedMagic
+    	LINUX /pmagic/pmagic/bzImage64
+    	INITRD /pmagic/pmagic/initrd.img,/pmagic/pmagic/fu.img,/pmagic/pmagic/m64.img,/pmagic/boot/pxelinux/pm2pxe/files.cgz
+    		append edd=on vga=normal
+LABEL freedos
+	MENU LABEL FreeDos
+	LINUX freedos/memdisk
+	initrd freedos/fdboot.img
