@@ -1,0 +1,4 @@
+LABEL Debian 10 x64
+	MENU LABEL Debian 10 Installer (Automatic)
+	KERNEL debian-10/linux
+		append initrd=debian-10/initrd.gz auto=true preseed/url=tftp://192.168.1.30/debian-10/preseed.cfg
