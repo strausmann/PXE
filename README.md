@@ -14,7 +14,7 @@ mkdir /tftpboot
 ##### BIOS (Empfolen)
 ```shell
 cd /tftpboot
-wget URL
+wget https://github.com/MacAndMoreYT/PXE/raw/master/BIOS/BIOS.zip
 unzip *.zip
 
 ```
@@ -22,7 +22,7 @@ unzip *.zip
 ##### UEFI
 ```shell
 cd /tftpboot
-wget URL
+wget https://github.com/MacAndMoreYT/PXE/raw/master/UEFI/UEFI.zip
 unzip *.zip
 ```
 ### 4. Konfiguration von tftpd-hpa
